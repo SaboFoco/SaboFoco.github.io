@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YourTrip — Il viaggio inizia prima del volo</title>
+<meta name="description" content="Itinerario, budget, prenotazioni, documenti e mappa in un'unica app per viaggiare insieme. Scarica YourTrip su TestFlight.">
+<link rel="icon" href="assets/icon.png">
+<link rel="preload" href="fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#top" aria-label="YourTrip, torna all'inizio">
+    <img src="assets/icon.png" alt="">
+    <span>yourtrip</span>
+  </a>
+  <nav class="navlinks" aria-label="Navigazione principale">
+    <a href="#mondo">Destinazioni</a>
+    <a href="#app">L'app</a>
+    <a href="#come">Come funziona</a>
+  </nav>
+  <a class="btn btn-small" href="itms-beta://beta.itunes.apple.com/v1/app/6838273760" data-testflight>Scarica l'app <span aria-hidden="true">↗</span></a>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"><img src="assets/photo-1511632765486-a01980e01a18.jpg" alt="Amici in viaggio insieme"></div>
+    <div class="hero-inner">
+      <p class="kicker">TRIPLAN · YOURTRIP — VIAGGI DI GRUPPO</p>
+      <h1>Il viaggio inizia<br><em>prima</em> del volo<span class="dot">.</span></h1>
+      <p class="hero-sub">Itinerario, budget, prenotazioni, documenti e mappa. Un solo posto, con tutte le persone che viaggiano con te.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="itms-beta://beta.itunes.apple.com/v1/app/6838273760" data-testflight>Crea il tuo viaggio <span aria-hidden="true">→</span></a>
+        <a class="btn btn-ghost" href="#mondo">Guarda il mondo <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-stats">
+        <div><strong data-count="14">14</strong><span>giorni di viaggio</span></div>
+        <div><strong data-count="5">5</strong><span>viaggiatori</span></div>
+        <div><strong data-count="1">1</strong><span>piano condiviso</span></div>
+      </div>
+    </div>
+    <div class="hero-fade" aria-hidden="true"></div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>TOKYO ✦ KYOTO ✦ OSAKA ✦ NARA ✦ VENEZIA ✦ ISOLE ✦ MONTAGNE ✦ TOKYO ✦ KYOTO ✦ OSAKA ✦ NARA ✦ VENEZIA ✦ ISOLE ✦ MONTAGNE ✦ </span>
+      <span>TOKYO ✦ KYOTO ✦ OSAKA ✦ NARA ✦ VENEZIA ✦ ISOLE ✦ MONTAGNE ✦ TOKYO ✦ KYOTO ✦ OSAKA ✦ NARA ✦ VENEZIA ✦ ISOLE ✦ MONTAGNE ✦ </span>
+    </div>
+  </div>
+
+  <!-- DESTINAZIONI -->
+  <section class="section" id="mondo">
+    <div class="section-head">
+      <p class="kicker">01 / IL MONDO TI ASPETTA</p>
+      <h2>Dove si parte?<span class="dot">.</span></h2>
+      <p>Un piano per ogni posto. Scegli tu dove andare, il gruppo si occupa del resto.</p>
+    </div>
+    <div class="photo-grid">
+      <figure class="tile tile-a"><img src="assets/photo-1540959733332-eab4deabeeaf.jpg" alt="Tokyo di notte"><figcaption><span>Tokyo</span><small>Notte e neon</small></figcaption></figure>
+      <figure class="tile tile-b"><img src="assets/photo-1493976040374-85c8e12f0c0e.jpg" alt="Kyoto"><figcaption><span>Kyoto</span><small>Templi e sakura</small></figcaption></figure>
+      <figure class="tile tile-c"><img src="assets/photo-1523906834658-6e24ef2386f9.jpg" alt="Venezia"><figcaption><span>Venezia</span><small>Canali</small></figcaption></figure>
+      <figure class="tile tile-d"><img src="assets/photo-1533105079780-92b9be482077.jpg" alt="Costa mediterranea"><figcaption><span>Le coste</span><small>Mare e sole</small></figcaption></figure>
+      <figure class="tile tile-e"><img src="assets/photo-1469474968028-56623f02e42e.jpg" alt="Montagne"><figcaption><span>Montagne</span><small>Aria aperta</small></figcaption></figure>
+      <figure class="tile tile-f"><img src="assets/photo-1500534623283-312aade485b7.jpg" alt="Paesaggio naturale"><figcaption><span>Laghi</span><small>Silenzio</small></figcaption></figure>
+      <figure class="tile tile-g"><img src="assets/photo-1512453979798-5ea266f8880c.jpg" alt="Città"><figcaption><span>Città</span><small>Ritmo e luci</small></figcaption></figure>
+      <figure class="tile tile-h"><img src="assets/photo-1488646953014-85cb44e25828.jpg" alt="Viaggiatrici in partenza"><figcaption><span>Insieme</span><small>Il viaggio vero</small></figcaption></figure>
+    </div>
+    <p class="photo-note">Foto a scopo illustrativo · i viaggi mostrati sono dimostrativi.</p>
+  </section>
+
+  <!-- APP -->
+  <section class="section app-section" id="app">
+    <div class="app-copy">
+      <p class="kicker">02 / UN SOLO POSTO</p>
+      <h2>Tutto quello che serve.<br>Niente di superfluo<span class="dot">.</span></h2>
+      <div class="features">
+        <div class="feature"><span class="fnum">01</span><div><h3>Itinerario vivo</h3><p>La spina del viaggio: ogni tappa è un nodo con orari, tempi e percorso. Cambi idea? Si aggiorna per tutti.</p></div></div>
+        <div class="feature"><span class="fnum">02</span><div><h3>Budget che si aggiorna</h3><p>Spese, valute e divisione tra viaggiatori. Sempre collegato alle scelte del gruppo.</p></div></div>
+        <div class="feature"><span class="fnum">03</span><div><h3>Prenotazioni e documenti</h3><p>Voli, hotel, treni e biglietti in un unico archivio. Niente più email da cercare la notte prima.</p></div></div>
+        <div class="feature"><span class="fnum">04</span><div><h3>Mappe native</h3><p>Il percorso del giorno e quello completo, anche in 3D. Con la ricerca luoghi e le indicazioni.</p></div></div>
+      </div>
+      <a class="btn btn-primary" href="itms-beta://beta.itunes.apple.com/v1/app/6838273760" data-testflight>Prova l'app <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="app-proof">
+      <div class="phone">
+        <img src="assets/app-phone.png" alt="Schermata dell'app YourTrip con l'itinerario del Giappone">
+      </div>
+      <p class="proof-label">L'app vera, non un mockup.</p>
+    </div>
+  </section>
+
+  <!-- SMART -->
+  <section class="smart">
+    <div class="smart-inner">
+      <div class="smart-copy">
+        <p class="kicker light">03 / SMART PLANNING</p>
+        <h2>Non ti dice solo cosa fare.<br>Ti dice <em>perché</em><span class="dot">.</span></h2>
+        <p>YourTrip suggerisce il momento migliore per ogni tappa e mostra la prova: affollamento, distanza, tempo risparmiato. Tu decidi, il gruppo vede subito.</p>
+        <ul class="proof-list">
+          <li>Spostamento Senso-ji alle 08:30</li>
+          <li>Percorso più corto di 1,4 km</li>
+          <li>Nessun costo aggiuntivo</li>
+        </ul>
+      </div>
+      <div class="smart-card">
+        <div class="smart-card-top"><span>GIORNO 08 · IL TUO PIANO</span><span class="pill">IN CORSO</span></div>
+        <h3>Risparmi 24 min spostando Senso-ji alle 08:30</h3>
+        <p class="smart-proof">PROVA · affollamento −38% · percorso −1,4 km</p>
+        <div class="route" aria-hidden="true">
+          <span></span><span></span><span class="active"></span><span></span>
+        </div>
+        <div class="smart-btn">Applica al giorno →</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COME FUNZIONA -->
+  <section class="section" id="come">
+    <div class="section-head">
+      <p class="kicker">04 / COME FUNZIONA</p>
+      <h2>Da “ci andiamo?” a “si parte”<span class="dot">.</span></h2>
+    </div>
+    <div class="steps">
+      <article class="step">
+        <img src="assets/photo-1529156069898-49953e39b3ac.jpg" alt="Amici che pianificano insieme">
+        <div class="step-body"><span>01</span><h3>Invita il gruppo</h3><p>Un link e tutti inside. Ognuno vede lo stesso piano, in tempo reale.</p></div>
+      </article>
+      <article class="step">
+        <img src="assets/photo-1543269865-cbf427effbad.jpg" alt="Viaggiatori che scelgono insieme">
+        <div class="step-body"><span>02</span><h3>Decidete insieme</h3><p>Voti, proposte e aggiornamenti live. Nessuna scelta resta in una chat.</p></div>
+      </article>
+      <article class="step">
+        <img src="assets/photo-1500534314209-a25ddb2bd429.jpg" alt="Partenza in viaggio">
+        <div class="step-body"><span>03</span><h3>Partite davvero</h3><p>Itinerario, mappa e documenti in tasca. Anche senza rete.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- GRUPPO -->
+  <section class="group-band">
+    <img src="assets/photo-1511632765486-a01980e01a18.jpg" alt="Gruppo di amici in viaggio">
+    <div class="group-copy">
+      <p class="kicker light">05 / INSIEME</p>
+      <h2>Il viaggio è di tutti.<br>Anche i conti<span class="dot">.</span></h2>
+      <p>Chi ha pagato cosa, chi deve a chi, chi è d'accordo su cosa. Tutto chiaro, senza discussioni a tavola.</p>
+      <a class="btn btn-light" href="itms-beta://beta.itunes.apple.com/v1/app/6838273760" data-testflight>Apri in TestFlight <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section class="final">
+    <img src="assets/photo-1469474968028-56623f02e42e.jpg" alt="Montagne, il prossimo viaggio">
+    <div class="final-copy">
+      <h2>Il prossimo viaggio<br>lo organizzate insieme<span class="dot">.</span></h2>
+      <p>Scarica YourTrip su TestFlight e crea il tuo primo piano con chi viaggia con te.</p>
+      <a class="btn btn-primary btn-big" href="itms-beta://beta.itunes.apple.com/v1/app/6838273760" data-testflight>Inizia ora <span aria-hidden="true">→</span></a>
+      <small>iOS e iPadOS · versione 1.0 · TestFlight</small>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <a class="brand" href="#top"><img src="assets/icon.png" alt=""><span>yourtrip</span></a>
+  <p>Itinerario · Budget · Gruppo · Mappe · Documenti</p>
+  <p class="fine">Progetto dimostrativo. Foto stock da Unsplash, dati illustrativi.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

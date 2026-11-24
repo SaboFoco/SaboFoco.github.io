@@ -1,1 +1,0 @@
-__d(function(t,s,i,r,e,n,c){"use strict";e.exports={uri:"/assets/assets/icon.c56f40ba39774f63cf4641931a418255.png",width:1024,height:1024,toString(){return this.uri}}},786,[]);
